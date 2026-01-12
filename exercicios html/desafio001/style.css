@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@font-face {
+    font-family: figtree;
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf) format(truetype);
+
+
+    font-family: inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf) format(truetype);
+}
+
+:root{
+    --fonte-padrao: figtree;
+    --fonte-inter: inter;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-inter);
+}
+
+body{
+    background-color: #141414;
+    margin-top: 200px;
+}
+
+img{
+    margin-left: 157px;
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+main{
+    background-color: #1F1F1F;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+main > h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+p#p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.verde{
+    color: #afe217;
+    text-align: center;
+}
+
+div{
+    background-color: #333333;
+    width: 300px;
+    height: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition-duration: 0.5ms;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+}
+
+div:hover{
+    padding: 11px;
+}
+
+div > a{
+    color: white;
+    text-decoration: none;
+}
