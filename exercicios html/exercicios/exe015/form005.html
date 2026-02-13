@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="mas" value="masculino">
+            <label for="mas">Masculino</label>
+
+            <input type="radio" name="sexo" id="fem" value="feminino">
+            <label for="fem">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comida Favorita</legend>
+            <input type="checkbox" name="macarrao" id="maca">
+            <label for="maca">Macarrao</label>
+            <br>
+            
+            <input type="checkbox" name="arroz" id="arroz">
+            <label for="arroz">Arroz</label>
+            <br>
+
+            <input type="checkbox" name="lasanha" id="lasan">
+            <label for="lasan">Lasanha</label>
+            <br>
+
+            <input type="checkbox" name="pizza" id="piz">
+            <label for="piz">Pizza</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
