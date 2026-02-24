@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+hmtl{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5px;
+    font-size: 1.4em;
+}
+
+menu{
+    display: none;
+}
