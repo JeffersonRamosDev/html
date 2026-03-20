@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div.container{
+    background-color: black;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.itens {
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+}
