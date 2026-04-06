@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+div.container{
+    background-color: black;
+
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    align-items: flex-start;
+}
+
+div.itens {
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div#i1 {
+    align-self: flex-end;
+}
+
+div#i2 {
+    align-self: center;
+}
+
+div#i3 {
+    align-self: flex-start;
+}
+
+div#i4 {
+    align-self: stretch;
+}
+
